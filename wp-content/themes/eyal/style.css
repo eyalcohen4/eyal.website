@@ -1,0 +1,29 @@
+/*
+Theme Name: eyal
+Author: Eyal Cohen
+Author URI: github.com/eyalcohen4
+Version: 1.0
+*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+}
+
+.main {
+  flex: 1;
+}

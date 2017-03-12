@@ -1,0 +1,22 @@
+.main {
+  flex: 1;
+  padding: 40px;
+}
+
+.main__section {
+  text-align: center;
+}
+
+.main__section__feature {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .main__section__feature {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,37 @@
+[10-Mar-2017 18:39:46] PHP Parse error:  syntax error, unexpected '[' in /home2/opstuden/public_html/wp-content/themes/eyal/footer.php on line 9
+1489171188: /home2/opstuden/public_html/ssv3_payload_extractor-75eEpRU7Gk.php startup
+[10-Mar-2017 20:43:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wpb_list_child_pages() in /home2/opstuden/public_html/wp-content/themes/eyal/page-home.php:8
+Stack trace:
+#0 /home2/opstuden/public_html/wp-includes/template-loader.php(74): include()
+#1 /home2/opstuden/public_html/wp-blog-header.php(19): require_once('/home2/opstuden...')
+#2 /home2/opstuden/public_html/index.php(17): require('/home2/opstuden...')
+#3 {main}
+  thrown in /home2/opstuden/public_html/wp-content/themes/eyal/page-home.php on line 8
+[10-Mar-2017 20:45:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function excerpt() in /home2/opstuden/public_html/wp-content/themes/eyal/page-home.php:27
+Stack trace:
+#0 /home2/opstuden/public_html/wp-includes/template-loader.php(74): include()
+#1 /home2/opstuden/public_html/wp-blog-header.php(19): require_once('/home2/opstuden...')
+#2 /home2/opstuden/public_html/index.php(17): require('/home2/opstuden...')
+#3 {main}
+  thrown in /home2/opstuden/public_html/wp-content/themes/eyal/page-home.php on line 27
+[10-Mar-2017 20:47:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_conetnt() in /home2/opstuden/public_html/wp-content/themes/eyal/page-home.php:27
+Stack trace:
+#0 /home2/opstuden/public_html/wp-includes/template-loader.php(74): include()
+#1 /home2/opstuden/public_html/wp-blog-header.php(19): require_once('/home2/opstuden...')
+#2 /home2/opstuden/public_html/index.php(17): require('/home2/opstuden...')
+#3 {main}
+  thrown in /home2/opstuden/public_html/wp-content/themes/eyal/page-home.php on line 27
+[10-Mar-2017 20:47:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_conetnt() in /home2/opstuden/public_html/wp-content/themes/eyal/page-home.php:27
+Stack trace:
+#0 /home2/opstuden/public_html/wp-includes/template-loader.php(74): include()
+#1 /home2/opstuden/public_html/wp-blog-header.php(19): require_once('/home2/opstuden...')
+#2 /home2/opstuden/public_html/index.php(17): require('/home2/opstuden...')
+#3 {main}
+  thrown in /home2/opstuden/public_html/wp-content/themes/eyal/page-home.php on line 27
+[10-Mar-2017 20:49:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_conetnt() in /home2/opstuden/public_html/wp-content/themes/eyal/page-home.php:25
+Stack trace:
+#0 /home2/opstuden/public_html/wp-includes/template-loader.php(74): include()
+#1 /home2/opstuden/public_html/wp-blog-header.php(19): require_once('/home2/opstuden...')
+#2 /home2/opstuden/public_html/index.php(17): require('/home2/opstuden...')
+#3 {main}
+  thrown in /home2/opstuden/public_html/wp-content/themes/eyal/page-home.php on line 25

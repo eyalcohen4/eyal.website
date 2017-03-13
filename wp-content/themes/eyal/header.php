@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
+
   <head>
 
     <meta charset="<?php bloginfo('charset'); ?>">
@@ -13,30 +14,44 @@
 
   <body <?php body_class(); ?> >
 
+    <div class="sidebar sidebar--close">
+
+      <span class="sidebar__close" id="sidebar-close"> X </span>
+
+      <div class="sidebar__scroll">
+        <?php get_sidebar( 'home-sidebar' ); ?>
+      </div>
+
+    </div>
+
     <header class="header">
 
       <nav class="header__nav">
-        <div class="header__nav__brand">
-          <img class="header__logo__img" src="https://eyalcohen4.github.io/teapot.png">
-          <a class="header__nav__brand__text" href="<?php echo home_url(); ?>"> <?php bloginfo('name'); ?> </a>
-        </div>
-        <?php do_action('mn_nav'); ?>
 
-        <div class="header__nav__main header__nav__main--desktop">
-          <?php
+          <div class="header__nav__brand">
+            <img class="header__logo__img" src="https://eyalcohen4.github.io/teapot.png">
+            <a class="header__nav__brand__text" href="<?php echo home_url(); ?>"> <?php bloginfo('name'); ?> </a>
+          </div>
 
-            $args = array(
-              'theme_location' => 'primary'
-            );
+          <?php do_action('mn_nav'); ?>
 
-          ?>
+          <div class="header__nav__main header__nav__main--desktop">
+            <?php
 
-          <?php wp_nav_menu( $args ); ?>
+              $args = array(
+                'theme_location' => 'primary'
+              );
 
-        </div>
-    </nav>
+            ?>
+
+            <?php wp_nav_menu( $args ); ?>
+
+          </div>
+          <button id="sidebar-open" class="header__nav__open-sidebar"> + </button>
+      </nav>
+
       <h1 class="header__title">
-          Innovative T-Shirts Creators
+        Innovative T-Shirts Creators
       </h1>
 
       <svg class="header__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" preserveAspectRatio="none">

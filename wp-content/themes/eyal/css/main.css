@@ -20,3 +20,14 @@
     flex-direction: column;
   }
 }
+
+
+/* OVERRIDES */
+.mn-navigation-wrap {
+  left: 0 !important;
+}
+
+.mn-icon-wrap {
+  float: none !important;
+}
+
